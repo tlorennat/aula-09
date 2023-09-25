@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body {
+  background-color: #ecf9ff;
+  color: #272727;
+  font-family: 'Quicksand', serif;
+ 
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #EF8D9C;
+}
+
+.cards_container{
+  display: flex;
+  gap: 16px;
+  justify-content: space-evenly;
+}
+
+.card{
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  color: #ffffff;
+  box-sizing: border-box;
+  height: 250px;
+  width: fit-content;
+}
+
+.card p{
+  text-align: center;
+  margin-top: 25px;
+  color: #ffffff;
+}
+
+.tamanho{
+  display: block;
+  height: 70%;
+}
+
+main{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 800px){
+
+  .cards_container{
+      flex-direction: column;
+      align-items: center;
+  }
+}
